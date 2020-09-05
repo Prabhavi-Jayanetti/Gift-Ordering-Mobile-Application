@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="ExpandedAppbar" parent="@android:style/TextAppearance.Material.Title">
+
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="RatingDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/RatingDialogButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/RatingDialogButtonStyle</item>
+    </style>
+</resources>
